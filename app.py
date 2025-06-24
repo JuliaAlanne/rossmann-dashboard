@@ -105,15 +105,6 @@ with aba_lojas:
 # --- Aba de Correlação Vendas x Lojas ---
 with aba_correlacao:
     st.header("Vendas em Relação às Características das Lojas")
-    st.markdown("""
-    **Ticket Médio** representa o valor médio gasto por cliente em uma loja.
-    Ele é calculado pela fórmula:
-
-    **Ticket Médio = Vendas Totais / Número de Clientes**
-
-    Essa métrica ajuda a entender a eficiência de vendas de cada loja.
-    Uma loja com ticket médio alto indica que, mesmo com menos clientes, os consumidores estão comprando mais por visita.
-    """)
     # Vendas por tipo de loja
     vendas_tipo = df.groupby("StoreType")["Sales"].mean().reset_index()
     fig_tipo = px.bar(vendas_tipo, x="StoreType", y="Sales", title="Média de Vendas por Tipo de Loja")
