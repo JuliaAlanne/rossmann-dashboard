@@ -8,7 +8,7 @@ Ele permite análises dinâmicas por loja, por período, por dia da semana, tipo
 ## 🌐 Acesse o Dashboard
 
 > **Link ao vivo (Streamlit Cloud):**  
-> [https://seu-usuario.streamlit.app](https://rossmann-dashboard-3gxhfsyhqwtwchjznbzcpf.streamlit.app/)  
+> [https://rossmann-dashboard/](https://rossmann-dashboard-3gxhfsyhqwtwchjznbzcpf.streamlit.app/)  
 
 
 ---
