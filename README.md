@@ -1,7 +1,7 @@
 # 📊 Rossmann Store Sales Dashboard
 
 Este é um dashboard interativo desenvolvido com **Streamlit** para explorar os dados de vendas da rede de lojas **Rossmann**.  
-Ele permite análises dinâmicas por loja, por período, por dia da semana, tipo de loja, promoções e mais!
+Ele permite análises dinâmicas por loja, por período, por dia da semana, tipo de loja, promoções.
 
 ---
 
